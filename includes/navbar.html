@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="container-fluid w-80">
+        <a class="navbar-brand" hx-get="./pages/landing.html" hx-trigger="click" hx-target="#mainarea" href="#">AITGbot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=1181513333002739772">초대하기</a> -->
+                    <a class="nav-link" hx-get="./pages/landing.html" hx-trigger="click" hx-target="#mainarea" href="#">메인</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" hx-get="./pages/commands.html" hx-trigger="click" hx-target="#mainarea" href="#">명령어</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" hx-get="./pages/terms.html" hx-trigger="click" hx-target="#mainarea" href="#">이용약관</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/tXyfNkFwff">AITG서버</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.gg/gu45aCgzZv">지원서버</a>
+                    </li>
+                    <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">한국어</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Contribute</a></li>
+                    </ul> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
