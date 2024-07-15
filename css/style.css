@@ -1,11 +1,14 @@
-
-
 body{
-    width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0;
     font-family: "Noto Sans KR", sans-serif;
+    padding-top: 70px;
 }
 
+button{
+    font-family: "Noto Sans KR", sans-serif;
+}
 
 code{
     font-family: "Nanum Gothic Coding", monospace;
