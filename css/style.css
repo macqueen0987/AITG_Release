@@ -1,0 +1,47 @@
+:root{
+    --code-color: rgb(73, 73, 73);
+    --main-background: rgb(31, 31, 31);
+    --primetext-color: rgb(240, 240, 240)
+}
+
+body{
+    width: 100vw;
+    margin: 0;
+    background-color: var(--main-background);
+    color: var(--primetext-color);
+    font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width: 100%;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+code{
+    background-color: var(--code-color);
+    font-family: "Nanum Gothic Coding", monospace;
+    font-optical-sizing: auto;
+    border-radius: 5px;
+    padding: 5px 2px 5px 2px;
+}
+
+div#main{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 80vw;
+}
