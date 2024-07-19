@@ -8,7 +8,7 @@ body{
     height: 100vh;
     margin: 0;
     font-family: "Noto Sans KR", sans-serif;
-    padding-top: 75px;
+    padding-top: 55px;
     overflow-x: hidden;
 }
 
@@ -38,17 +38,21 @@ img.func-img{
     aspect-ratio: auto;
 }
 
-div.funcs{
-    margin-bottom: 40px;
-}
-
 div.funcs > div{
     background-color: rgba(50,50,60, 0.5);
     border-radius: 10px;
 }
 
-div.funcs:last-child{
-    margin-bottom: 20px;
+div#claninfobackground{
+    background-image: url("../imgs/aitg_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#claninfowrapper{
+    background-color: rgba(33, 37, 41, 0.95);
 }
 
 @media only screen and (max-width: 768px) {
