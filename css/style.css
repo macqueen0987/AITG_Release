@@ -1,3 +1,16 @@
+div.emphasis{
+    background-color : rgba(50,50,60, 0.5);;
+}
+
+.bdr-10px{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 html{
     margin: 0px;
 }
@@ -36,11 +49,6 @@ img.func-img{
     -webkit-box-shadow: 0px 0px 7px 0px var(--color);
     -moz-box-shadow: 0px 0px 7px 0px var(--color);
     aspect-ratio: auto;
-}
-
-div.funcs > div{
-    background-color: rgba(50,50,60, 0.5);
-    border-radius: 10px;
 }
 
 div#claninfobackground{
