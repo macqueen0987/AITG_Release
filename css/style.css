@@ -55,10 +55,19 @@ div#claninfowrapper{
     background-color: rgba(33, 37, 41, 0.95);
 }
 
+div.sidebar{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
 @media only screen and (max-width: 768px) {
     #bot-descrption {
       background-image: url("https://jastinxyz.github.io/discord-bot-landing-page-web/assets/img/relaunch_day.svg");
       background-repeat: no-repeat;
+    }
+
+    .hide-768{
+        display: none !important;
     }
   }
 
