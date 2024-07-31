@@ -49,6 +49,7 @@ img.func-img{
     -webkit-box-shadow: 0px 0px 7px 0px var(--color);
     -moz-box-shadow: 0px 0px 7px 0px var(--color);
     aspect-ratio: auto;
+    max-height: 500px;
 }
 
 div#claninfobackground{
@@ -70,13 +71,31 @@ div.sidebar{
 
 @media only screen and (max-width: 768px) {
     #bot-descrption {
-      background-image: url("https://jastinxyz.github.io/discord-bot-landing-page-web/assets/img/relaunch_day.svg");
+      background-image: url("../imgs/aitg_logo.png");
       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    #bot-descrption::after{
+        content: '';
+        position: absolute;
+        background: rgb(41, 48, 47);
+        z-index: -1;
+        inset: 0;
+        opacity: 0.9;
     }
 
     .hide-768{
         display: none !important;
     }
+
+    .w-768-100{
+        width: 100% !important;
+    }
+
   }
 
 ::-webkit-scrollbar-track
