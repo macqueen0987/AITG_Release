@@ -92,6 +92,10 @@ div.sidebar{
         display: none !important;
     }
 
+    .show-768{
+        display: block !important;
+    }
+
     .w-768-100{
         width: 100% !important;
     }
